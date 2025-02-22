@@ -1,91 +1,99 @@
+
 body {
-    font-family: 'Roboto', sans-serif;
-    background: #f8f9fa;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-  }
-  
-  #mainHeader {
-    background: linear-gradient(135deg, #007bff, #00aaff);
-  }
-  
-  .card {
-    border-radius: 0.5rem;
-    overflow: hidden;
-  }
-  
-  .card-header {
-    padding: 1rem;
-  }
-  
-  .card-body {
-    padding: 1rem;
-  }
-  
-  .form-control {
-    border-radius: 0.25rem;
-    transition: border-color 0.3s;
-  }
-  
-  .form-control:focus {
-    border-color: #00aaff;
-    box-shadow: 0 0 0 0.2rem rgba(0, 170, 255, 0.25);
-  }
-  
-  .btn {
-    transition: background-color 0.3s, transform 0.2s;
-  }
-  
-  .btn:hover {
-    transform: translateY(-2px);
-  }
-  
-  .toast {
-    border-radius: 0.5rem;
-  }
-  
-  .book-entry {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.75rem;
-    background: #ffffff;
-    border-radius: 0.25rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    margin-bottom: 1rem;
-    transition: background-color 0.3s;
-  }
-  
-  .book-entry:hover {
-    background: #f1f1f1;
-  }
-  
-  .book-info h4 {
-    margin: 0 0 0.5rem;
-    font-size: 1.1rem;
-  }
-  
-  .book-info p {
-    margin: 0;
-    font-size: 0.9rem;
-    color: #555;
-  }
-  
-  ::-webkit-scrollbar {
-    width: 8px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: #c1c1c1;
-    border-radius: 4px;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: #a8a8a8;
-  }
-  
+  font-family: 'Roboto', sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+#mainHeader {
+  background: linear-gradient(135deg, #0056b3, #007bff);
+  padding: 2rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#mainHeader h1 {
+  color: #fff;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.card-header {
+  padding: 1rem;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.form-control {
+  border-radius: 0.25rem;
+  transition: border-color 0.3s;
+}
+
+.form-control:focus {
+  border-color: #00aaff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 170, 255, 0.25);
+}
+
+.btn {
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.toast {
+  border-radius: 0.5rem;
+}
+
+.book-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  background: #ffffff;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1rem;
+  transition: background-color 0.3s;
+}
+
+.book-entry:hover {
+  background: #f1f1f1;
+}
+
+.book-info h4 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.book-info p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
